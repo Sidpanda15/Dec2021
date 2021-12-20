@@ -1,0 +1,18 @@
+{
+  "welcomeFile":"/index.html",
+  "authenticationMethod": "none",
+  "routes":[
+      {
+          "authenticationType":"none",
+          "csrfProtection": false,
+          "source": "^/sap/opu/odata/sap/ZDEC_2021_SRV/",
+          "destination":"S4D"
+      },
+      {
+          "source":"^(.*)$",
+          "target":"$1",
+          "services":"html5-apps-repo-rt"
+      }
+  ]
+
+}

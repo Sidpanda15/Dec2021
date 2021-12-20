@@ -1,0 +1,142 @@
+{
+    "_version": "1.12.0",
+    "sap.app": {
+        "id": "soyuz.sid.fiori",
+        "type": "application",
+        "i18n": "i18n/i18n.properties",
+        "title": "{{appTitle}}",
+        "description": "{{appDescription}}",
+        "applicationVersion": {
+            "version": "1.0.0"
+        },
+        "dataSources": {
+            "siddhantService": {
+                "uri": "/sap/opu/odata/sap/ZDEC_2021_SRV/",
+                "type": "OData",
+                "settings": {
+                    "odataVersion": "2.0"
+                }
+            }
+        }
+    },
+    "sap.ui": {
+        "technology": "UI5",
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": true
+        }
+    },
+    "sap.ui5": {
+
+        "dependencies": {
+            "minUI5Version": "1.80",
+            "libs": {
+                "sap.m": {
+                    "minVersion": ""
+                },
+                "sap.ui.layout": {
+                    "minVersion": ""
+                }
+            }
+        },
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        },
+        "rootView": {
+            "id": "idAppView",
+            "viewName": "soyuz.sid.fiori.view.App",
+            "type": "XML"
+        },
+        "routing": {
+            "config": {
+                "routerClass": "sap.m.routing.Router",
+                "viewPath": "soyuz.sid.fiori.view",
+                "viewType": "XML",
+                "controlId": "idAppCon"
+            },
+            "routes": [{
+                    "pattern": "",
+                    "name": "start",
+                    "target": ["master", "empty"]
+                },
+                {
+                    "pattern": "myfruits/{fruitId}",
+                    "name": "detail",
+                    "target": ["master", "detail"]
+
+                },
+                {
+                    "pattern": "supplierdata/{suppId}",
+                    "name": "supplier",
+                    "target": ["master", "supplier"]
+                },
+                {
+                    "pattern": "AddNewProduct",
+                    "name": "addProduct",
+                    "target": ["master", "Putin"]
+                }
+            ],
+            "targets": {
+                "master": {
+                    "viewName": "View1",
+                    "controlAggregation": "masterPages",
+                    "viewId": "idView1"
+                },
+                "empty": {
+                    "viewName": "Avengers",
+                    "controlAggregation": "detailPages",
+                    "viewId": "idEmpty"
+                },
+                "detail": {
+                    "viewName": "View2",
+                    "controlAggregation": "detailPages",
+                    "viewId": "idDetail"
+                },
+                "supplier": {
+                    "viewName": "Supplier",
+                    "viewId": "idSupplier",
+                    "controlAggregation": "detailPages"
+
+                },
+                "Putin": {
+                    "viewName": "Add",
+                    "viewId": "idAdd",
+                    "controlAggregation": "detailPages"
+
+                }
+            }
+        },
+
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "settings": {
+                    "bundleName": "i18n/i18n.properties",
+                    "supportedLocales": [""],
+                    "fallbackLocale": ""
+                }
+            },
+            "": {
+                "dataSource": "siddhantService",
+                "settings": {
+
+                    "defaultBindingMode": "TwoWay",
+
+                    "useBatch": false
+
+                },
+
+                "preload": true
+            },
+
+            "local": {
+                "type": "sap.ui.model.json.JSONModel",
+                "uri": "models/fruitdata.json"
+
+            }
+
+        }
+    }
+}

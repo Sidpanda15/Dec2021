@@ -1,0 +1,12 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+        controllerName="soyuz.sid.fiori.controller.Supplier">
+      <Page title="Supplier Data" showNavButton="true"
+            navButtonPress="onBack">
+        <ObjectHeader title="{contactPerson}"
+                     intro="{sinceWhen} with {company}"
+                     number="{phone}"
+                     numberUnit="{city}"
+                     icon="sap-icon://supplier">
+        </ObjectHeader>
+        </Page>
+</mvc:View>

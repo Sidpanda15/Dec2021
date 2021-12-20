@@ -1,0 +1,280 @@
+{
+	"fruits": [
+        {
+			"name": "Apple",
+			"type": "Citrus",
+			"color": "Red and Yellow",
+			"status": "Available",
+			"price": "200",
+			"currency": "Rupees",
+			"healthBenefit": "vitamin C Source",
+            "unit": "Kg",
+            "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhgIWLB_ymYz2PBo2xYq9whpht96rMiC7Cmg&usqp=CAU"
+		},
+		{
+			"name": "Guava",
+			"type": "Myrtaceae",
+			"color": "Green",
+			"status": "Out of Stock",
+			"price": "283",
+			"currency": "Rupees",
+			"healthBenefit": "Lower Blood Sugar Levels",
+			"unit": "Kg",
+            "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRaOJYVugxf6SQCGLfrgsHqWZqQC7J-2On4Q&usqp=CAU"
+		},
+		{
+			"name": "Pineapple",
+			"type": "group of berries",
+			"color": "greenish-yellow",
+			"status": "Discontinued",
+			"price": "28",
+			"currency": "Rupees",
+			"healthBenefit": "vitamin C and manganese",
+			"unit": "Kg",
+            "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYaQmphNesBF3vTQdOzwkECf7MeiyQmpCV4w&usqp=CAU"
+		},
+		{
+			"name": "Litchi",
+			"type": "Sapindaceae",
+			"color": "Red",
+			"status": "Available",
+			"price": "200",
+			"currency": "Rupees",
+			"healthBenefit": "Vitamin C",
+			"unit": "Kg",
+            "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHKeX6puXK-g-JdyrFajyf7ICjswcKPwMJGQ&usqp=CAU"
+		},
+		{
+			"name": "Coorg Orange",
+			"type": "Citrus",
+			"color": "Orange",
+			"status": "Discontinued",
+			"price": "250",
+			"currency": "Rupees",
+			"healthBenefit": "Vitamin C",
+			"unit": "Kg",
+            "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8NVRf-B8K_CaP_FiGyRuY_pW6n9c3R3PubQ&usqp=CAU"
+		},
+		{
+			"name": "Gir Kesar",
+			"type": "Anacardiaceae",
+			"color": "Bright orange",
+			"status": "Discontinued",
+			"price": "600",
+			"currency": "Rupees",
+			"healthBenefit": "vitamins A and C",
+			"unit": "Kg",
+            "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-UETvY07nwG2TXkWL7ZdIdc-qGTBKCfrZfQ&usqp=CAU"
+		},
+		{
+			"name": "Strawberry",
+			"type": "Fragaria",
+			"color": "Red",
+			"status": "Out of Stock",
+			"price": "40",
+			"currency": "Rupees",
+			"healthBenefit": " vitamin C and manganese",
+			"unit": "Kg",
+            "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdMwjES9MNXb7rJNYfhBtRrel08R78-ameIg&usqp=CAU"
+		},
+		{
+			"name": "Pomegranate",
+			"type": "Punicaceae",
+			"color": "Red",
+			"status": "Out of Stock",
+			"price": "248",
+			"currency": "Rupees",
+			"healthBenefit": " Vitamin C",
+			"unit": "Kg",
+            "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0OwIKYpzrRL5QhpbtBQQASwTR08zkoYqLrg&usqp=CAU"
+		},
+		{
+			"name": "Beed Custard Apple",
+			"type": "Annonaceae",
+			"color": "Green",
+			"status": "Out of Stock",
+			"price": "200",
+			"currency": "Rupees",
+			"healthBenefit": " Vitamin A",
+			"unit": "Kg",
+            "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvRMoZOd5egVfygPGKWr144SqWubSL5WzQbw&usqp=CAU"
+		},
+		{
+			"name": "Chikoo",
+			"type": "Sapotaceae",
+			"color": "Brown",
+			"status": "Available",
+			"price": "200",
+			"currency": "Rupees",
+			"healthBenefit": " Vitamin E",
+			"unit": "Kg",
+            "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx6JxgpSdxLledHlGPnRd-jDfGGM0HAzHcsA&usqp=CAU"
+		}
+	],
+	"suppliers": [
+        {
+			"company": "BigBasket",
+			"contactPerson": "Ankit",
+			"phone": "8899331122",
+			"city": "Delhi",
+			"sinceWhen": "1982",
+			"speciality": ["Orange", "Banana"]
+		},
+		{
+			"company": "Bbdaily",
+			"contactPerson": "Raju",
+			"phone": "8899331133",
+			"city": "Pune",
+			"sinceWhen": "1983",
+			"speciality": ["Apple", "Banana"]
+		},
+		{
+			"company": "RelianceFresh",
+			"contactPerson": "Mukesh",
+			"phone": "8899331144",
+			"city": "Mumbai",
+			"sinceWhen": "1984",
+			"speciality": ["Apple", "Litchi"]
+		},
+		{
+			"company": "Groffers",
+			"contactPerson": "Ajay",
+			"phone": "8899334466",
+			"city": "Indore",
+			"sinceWhen": "1985",
+			"speciality": ["Guava", "Litchi"]
+		},
+		{
+			"company": "IndiaMart",
+			"contactPerson": "Rakesh",
+			"phone": "8899334477",
+			"city": "Indore",
+			"sinceWhen": "1986",
+			"speciality": ["Guava", "Apple"]
+		},
+		{
+			"company": "FreshGreen",
+			"contactPerson": "Sanjay",
+			"phone": "8899334455",
+			"city": "Pune",
+			"sinceWhen": "1987",
+			"speciality": ["Mango", "Apple"]
+		},
+		{
+			"company": "GoFresh",
+			"contactPerson": "Rajesh",
+			"phone": "8899334423",
+			"city": "Mumbai",
+			"sinceWhen": "1988",
+			"speciality": ["Grapes", "Apple"]
+		},
+		{
+			"company": "EatFresh",
+			"contactPerson": "Pooja",
+			"phone": "8899333498",
+			"city": "Bhopal",
+			"sinceWhen": "1995",
+			"speciality": ["Guava", "Mango"]
+		},
+		{
+			"company": "DMart",
+			"contactPerson": "Srishti",
+			"phone": "8899333443",
+			"city": "Delhi",
+			"sinceWhen": "2000",
+			"speciality": ["Banana", "Grapes"]
+		},
+		{
+			"company": "SuperMart",
+			"contactPerson": "Anuja",
+			"phone": "8899333412",
+			"city": "Banglore",
+			"sinceWhen": "2010",
+			"speciality": ["Apple", "Banana"]
+		}
+	],
+	"cities": [
+        {
+			"name": "Mumbai",
+			"state": "Maharashtra",
+			"famousFor": "Bollywood",
+			"otherName": "Bombay",
+			"tierClass": "1",
+			"population": "1.84 crores"
+		},
+		{
+			"name": "Pune",
+			"state": "Maharashtra",
+			"famousFor": "automobile and manufacturing hub of India",
+			"otherName": "Poona",
+			"tierClass": "1",
+			"population": "31.2 lakhs"
+		},
+		{
+			"name": "Chennai",
+			"state": "Tamil Nadu",
+			"famousFor": "The Detroit of India",
+			"otherName": "Gateway to South India",
+			"tierClass": "1",
+			"population": "70.9 lakhs"
+		},
+		{
+			"name": "Chennai",
+			"state": "Tamil Nadu",
+			"famousFor": "The Detroit of India",
+			"otherName": "Gateway to South India",
+			"tierClass": "1",
+			"population": "70.9 lakhs"
+		},
+		{
+			"name": "Bangalore",
+			"state": "Karnataka",
+			"famousFor": "Hub for the Information Technology sector",
+			"otherName": "Garden City",
+			"tierClass": "1",
+			"population": "84.3 lakhs"
+		},
+		{
+			"name": "Bhopal",
+			"state": "Madhya Pradesh",
+			"famousFor": "City of Lakes",
+			"otherName": "The City of Lakes",
+			"tierClass": "1",
+			"population": "18 lakhs"
+		},
+		{
+			"name": "Indore",
+			"state": "Madhya Pradesh",
+			"famousFor": "Food",
+			"otherName": "Cleanest City",
+			"tierClass": "1",
+			"population": "30 lakhs"
+		},
+		{
+			"name": "Lucknow",
+			"state": "Uttar Pradesh",
+			"famousFor": "traditional chikan embroidery work",
+			"otherName": "City of Nawabs",
+			"tierClass": "1",
+			"population": "36 lakhs"
+		},
+		{
+			"name": "Ahmedabad",
+			"state": "Gujarat",
+			"famousFor": "cotton textiles",
+			"otherName": "Boston of India Manchester of India",
+			"tierClass": "1",
+			"population": "92 lakhs"
+		},
+		{
+			"name": "Kolkata",
+			"state": "West Bengal",
+			"famousFor": "Street Food",
+			"otherName": "City of Joy",
+			"tierClass": "1",
+			"population": "1.4 crores"
+		}
+	],
+    "selectedFruits":[
+    ]
+}

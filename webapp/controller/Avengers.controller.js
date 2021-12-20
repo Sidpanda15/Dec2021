@@ -1,0 +1,10 @@
+sap.ui.define([
+    'sap/ui/core/mvc/Controller'
+], function(Controller) {
+    'use strict';
+    return Controller.extend("soyuz.sid.fiori.controller.Avengers",{
+        onInit: function(){
+            console.log("Avengers' photo");
+        }
+    });
+});

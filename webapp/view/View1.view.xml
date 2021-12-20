@@ -1,0 +1,40 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+          xmlns="sap.m"
+          controllerName="soyuz.sid.fiori.controller.View1">
+          <Page title="View 1">
+          <headerContent>
+           <Button icon="sap-icon://add-product" press="onMessage"></Button>
+               <Button icon="sap-icon://open-command-field" press="onClick"></Button>
+
+          </headerContent>
+
+           <content>
+               <SearchField id="idSearch" search="onSearch" liveChange="onSearch"></SearchField>
+              <Toolbar >
+                <ToolbarSpacer ></ToolbarSpacer>
+                <Button icon="sap-icon://delete" press="onDeleteData"></Button>
+                <Button icon="sap-icon://arrow-right" press="onNavToNext"></Button>
+              </Toolbar>
+               <List id="idList" mode="SingleSelectMaster" selectionChange="onSelectionChange"
+               items="{path:'/ProductSet01'}" growing="true" growingThreshold="10">
+                   <items>
+                   <ObjectListItem intro="{CATEGORY}" title="{NAME}"
+                                   number="{PRICE} {CURRENCY_CODE}" numberUnit="{MEASURE_UNIT}">
+                         <firstStatus>
+                             <ObjectStatus text="{SUPPLIER_NAME}"
+                           state="Success" ></ObjectStatus>
+                   </firstStatus>
+                   </ObjectListItem>
+
+
+                   </items>
+               </List>
+           </content>
+           <footer>
+             <Toolbar>
+               <ToolbarSpacer></ToolbarSpacer>
+               <Button icon="sap-icon://add" press="onAdd" text="Add" ></Button>
+             </Toolbar>
+           </footer>
+          </Page>
+          </mvc:View>
