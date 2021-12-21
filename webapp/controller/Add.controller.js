@@ -57,7 +57,8 @@ sap.ui.define([
                     MessageToast.show("Product is saved Successfully");
                 },
                 error: function(oErr) {
-                    MessageBox.error(JSON.parse(oErr.responseText).error.innererror.errordetails[0].message)
+                    MessageBox.error(JSON.parse(oErr.responseText).error.innererror.errordetails[0].message);
+                    //messagebox
                 }
             })
         },
